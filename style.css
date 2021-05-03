@@ -151,7 +151,7 @@ ARTICLE{
 }
 .discount-on-box .discount{
     display: flex;
-    margin-left: -50px;
+    margin-left: -80px;
     margin-top: 5px;
 }
 
@@ -185,7 +185,7 @@ ARTICLE{
 }
 
 .discount{
-    border: rgba(71, 71, 71, 0.664) outset 2px;
+    border: grey outset 2px;
     border-radius: 2px;
     background-color: rgb(36, 36, 36);
     color: orange;
@@ -214,7 +214,8 @@ ARTICLE{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 45%;
+    margin: 5px;
 }
 
 .view-article a{
@@ -227,11 +228,14 @@ ARTICLE{
     justify-content: space-between;
     align-items: center;
     width: 40%;
+    border-bottom: black solid 1px;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0),black) 5;
 }
 
 .old-price{
     font-size: 20px;
     text-decoration: line-through;
+    font-size: 22px;
 }
 .new-price{
     font-size: 30px;
